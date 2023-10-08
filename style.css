@@ -257,3 +257,9 @@ color: #E8BC9D;
     padding: 0 4px;
     border-radius: 50%;
 }
+@media screen and (max-width:450px) {
+    .container-left{
+        width: 100%;
+        padding: 15px 5px;
+    }
+}
