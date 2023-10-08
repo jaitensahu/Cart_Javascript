@@ -1,7 +1,7 @@
 const Products = [
   { id: 1, name: "Nike Sneakers", price: 1000 },
   { id: 2, name: "Adidas Shoes", price: 800 },
-  { id: 3, name: "Denim snickers shoes", price: 1300 },
+  { id: 3, name: "Denim sneakers shoes", price: 1300 },
 ];
 
 let total = 0;
