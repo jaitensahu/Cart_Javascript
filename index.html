@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-image">
+        <img src="https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg" alt="">
+    </div>
+    <div class="blackbg"></div>
+    <section>
+        <div class="container-left">
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><sup id="superscript">0</sup></div>
+            
+            <div class="product-cart-heading">
+                <p>Product</p>
+                <p>Product Description</p>
+                <p>Price</p>
+                <p>Quantity</p>
+                
+            </div>
+
+
+            
+            <div class="product-1 product">
+                <img src="https://www.freepnglogos.com/uploads/shoes-png/dance-shoes-png-transparent-dance-shoes-images-5.png" alt="">
+                <div class="product-description">Nike Sneakers</div>
+                <div class="product-value">1000</div>
+                <div class="product_id">1</div>
+                <button class="buttons">
+                    <span class="minus">-</span>
+                    <span id="items">0</span>
+                    <span class="plus">+</span>
+                </button>
+            </div>
+
+            <div class="product-2 product">
+                <img src="https://www.freepnglogos.com/uploads/shoes-png/download-adidas-shoes-transparent-png-images-icons-18.png" alt="">
+                <div class="product-description 2">Adidas Shoes</div>
+                <div class="product-value">800</div>
+                <div class="product_id">2</div>
+                <button class="buttons">
+                    <span class="minus">-</span>
+                    <span id="items">0</span>
+                    <span class="plus">+</span>
+
+                </button>
+            </div>
+
+            <div class="product-3 product">
+                <img src="https://www.freepnglogos.com/uploads/shoes-png/denim-snickers-shoes-png-transparent-images-29.png" alt="">
+                <div class="product-description 3">Denim snickers <br>shoes</div>
+                <div class="product-value">1300</div>
+                <div class="product_id">3</div>
+                <button class="buttons">
+                    <span class="minus">-</span>
+                    <span id="items">0</span>
+                    <span class="plus">+</span>
+                </button>
+            </div>
+
+        </div>
+        <div class="container_right" id="cartItem">
+            <div class="close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h1>Cart</h1>
+            <div class="table-container">
+                <p>No Product added to the cart</p>
+                <table id="table">
+                    <tbody id="table_body"></tbody>
+                </table>
+            </div>
+            <div class="total">
+                <p>Total:</p><span id="totalPrice">0</span>
+            </div>
+            <div class="gotoCheckout">
+                <h1>Checkout</h1>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7c5861f7d9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
